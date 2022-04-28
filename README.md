@@ -27,6 +27,7 @@
 |京セラコミュニケーションシステム株式会社|<a href="https://www.kccs.co.jp/recruit/recruitment/internship/">リンク</a>|<a href="https://www.kccs.co.jp">リンク</a>|5日|
 |理想科学工業株式会社| <a href="https://paiza.jp/student/job_offers/10753">リンク</a> |<a href="https://www.riso.co.jp">リンク</a>|3日|
 |株式会社ヴァル研究所|<a href="https://athletix.run/challenges/luLQv9SAH">リンク</a>|<a href="https://www.val.co.jp">リンク</a>|５日|
+|株式会社日本総合研究所|<a href="https://athletix.run/challenges/a0P8T0jIc">リンク</a>|<a href="https://www.jri.co.jp">リンク|2日|
 |株式会社ファーストリテイリング|<a href="https://www.fastretailing.com/employment/contents/ja/fastretailing/jp/gfs/events/global-business-internship/">リンク</a>|<a href="https://www.fastretailing.com/jp/">リンク</a>|１ヶ月|
 
 ※ 複数日のもののみ記載しています。
