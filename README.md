@@ -35,5 +35,5 @@
 |名前|ハッカソンサイト|
 |:--:|:--:|
 |JPHACKS2021|<a href="https://jphacks.com/">リンク</a>|
-|PRTIMES|<a href="https://paiza.jp/student/job_offers/12789">リンク</a>|
+|PRTIMES オンラインハッカソン|<a href="https://paiza.jp/student/job_offers/12789">リンク</a>|
 |Pioneer Hackathon2021|<a href="https://athletix.run/challenges/Sjqh1V2mb">リンク</a>|
