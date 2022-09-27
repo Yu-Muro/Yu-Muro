@@ -39,4 +39,3 @@
 |JPHACKS2021|<a href="https://jphacks.com/">リンク</a>|バックエンド|
 |PRTIMES オンラインハッカソン|<a href="https://paiza.jp/student/job_offers/12789">リンク</a>|バックエンド|
 |Pioneer Hackathon2021|<a href="https://athletix.run/challenges/Sjqh1V2mb">リンク</a>|テックリード、バックエンド、DB、一部フロントエンド|
-|Tornado2022|<a href="https://tornado-official.jp/tornado2022/">リンク</a>|Engineer|
