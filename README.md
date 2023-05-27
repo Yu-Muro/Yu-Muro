@@ -4,20 +4,19 @@
 
 |   年 | 月  |                                   項目 |          |
 | ---: | :-: | ------------------------------------- | :------: |
-| 2015 |  3  |                      私立 志學館中等部 |   卒業   |
-| 2015 |  4  |                      私立 志學館高等部 |   入学   |
-| 2018 |  3  |                      私立 志學館高等部 |   卒業   |
-| 2018 |  4  |                  北九州予備校 鹿児島校 |   入校   |
-| 2019 |  4  | 東京都市大学 知識工学部 知能情報工学科 |   入学   |
-| 2023 |  3  | 東京都市大学 知識工学部 知能情報工学科 | 卒業 |
-| 2023 |  4  | 株式会社ゆめみ | 入社 |
+| 2015 |  3  |                      [私立 志學館中等部](https://www.jh.shigakukan.ac.jp) |   卒業   |
+| 2018 |  3  |                      [私立 志學館高等部](https://www.jh.shigakukan.ac.jp) |   卒業   |
+| 2018 |  4  |                  [北九州予備校 鹿児島校](https://www.kitayobi.ac.jp/kousya/kagoshima/) |   入校   |
+| 2019 |  4  | [東京都市大学 知識工学部 知能情報工学科](https://www.tcu.ac.jp/academics/knowledge/intelligentsystems/) |   入学   |
+| 2023 |  3  | [東京都市大学 知識工学部 知能情報工学科](https://www.tcu.ac.jp/academics/knowledge/intelligentsystems/) | 卒業 |
+| 2023 |  4  | [株式会社ゆめみ](https://www.yumemi.co.jp) | 入社 |
 
 ## アルバイト
 
-- 炭焼　小料理　わさび
-- 医療法人まほうつ会　ルタンはうす　みやかわ小児矯正歯科
-- やる気スイッチグループ　スクールIE　等々力校
-- 株式会社ゆめみ
+- [炭焼　小料理　わさび](http://www.wasabi-jiyugaoka.com)
+- [医療法人まほうつ会　ルタンはうす　みやかわ小児矯正歯科](https://ltanhouse.com)
+- [やる気スイッチグループ　スクールIE　等々力校](https://www.schoolie-net.jp/classrooms/detail/572/)
+- [株式会社ゆめみ](https://www.yumemi.co.jp)
 
 
 ## インターン
