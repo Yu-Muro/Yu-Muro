@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "cSpell.ignorePaths": [
+            "vscode-extension",
+            ".git/objects",
+            ".vscode",
+            ".vscode-insiders",
+            "*.code-workspace"
+        ],
+        "cSpell.ignoreWords": [
+            "appsscript"
+        ],
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.biome": "explicit"
+        },
+        "editor.fontFamily": "Monaspace Neon, PlemolJPHS",
+        "editor.fontLigatures": true,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 10
+    }
+}
