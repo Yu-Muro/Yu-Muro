@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="プロダクトエンジニア 室谷優のポートフォリオ。Webアプリケーション開発、個人開発「基礎知識Web版」、技術スタック、経歴をご紹介します。"
+      content="プロダクトエンジニア 室谷優のポートフォリオ。Webアプリケーション開発、個人開発、技術スタック、経歴をご紹介します。"
     />
     <meta name="theme-color" content="#07111f" />
     <title>室谷 優 | Product Engineer</title>
@@ -44,8 +44,8 @@
           </h1>
           <p class="hero-name"><span data-lang="ja">室谷 優</span><span data-lang="en">Yu Murotani</span></p>
           <p class="hero-intro">
-            <span data-lang="ja">要件定義・設計から実装まで一貫して携わるプロダクトエンジニアです。バックエンドを軸に、フロントエンドやインフラも横断。個人ではイベントスタッフ向けポータル「基礎知識Web版」を開発しています。</span>
-            <span data-lang="en">I am a product engineer working across requirements, design, and implementation. With a focus on backend development, I also work across frontend and infrastructure. My personal project is 基礎知識Web版, a portal for event staff.</span>
+            <span data-lang="ja">要件定義・設計から実装まで一貫して携わるプロダクトエンジニアです。バックエンドを軸に、フロントエンドやインフラも横断。個人でもWebプロダクトを開発しています。</span>
+            <span data-lang="en">I am a product engineer working across requirements, design, and implementation. With a focus on backend development, I also work across frontend and infrastructure, while developing a web product independently.</span>
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="https://github.com/Yu-Muro" target="_blank" rel="noreferrer">
@@ -74,7 +74,7 @@
             </div>
             <div>
               <dt><span data-lang="ja">個人開発</span><span data-lang="en">Personal</span></dt>
-              <dd><span data-lang="ja">基礎知識Web版</span><span data-lang="en">基礎知識Web版</span><br />Event Staff Portal</dd>
+              <dd>Full-stack<br />Web Development</dd>
             </div>
           </dl>
         </aside>
@@ -116,55 +116,27 @@
       </section>
 
       <section class="section project" id="project" aria-labelledby="project-title">
-        <div class="project-heading">
+        <div class="project-heading-simple">
           <div>
-            <p class="section-number">02 / PERSONAL PROJECT</p>
-            <p class="project-kicker"><span class="status-dot" aria-hidden="true"></span><span data-lang="ja">継続開発中</span><span data-lang="en">In active development</span></p>
+            <p class="section-number">02 / PERSONAL WORK</p>
+            <h2 id="project-title"><span data-lang="ja">個人開発</span><span data-lang="en">Personal Work</span></h2>
           </div>
-          <p class="project-name" aria-label="プロジェクト名 基礎知識Web版"><span>基礎知識</span><small>Web版</small></p>
+          <p class="project-kicker"><span class="status-dot" aria-hidden="true"></span><span data-lang="ja">継続開発中</span><span data-lang="en">In active development</span></p>
         </div>
 
-        <div class="project-layout">
-          <div class="project-story">
-            <h2 id="project-title">
-              <span data-lang="ja">イベント運営の情報を、<br />ひとつの場所に。</span>
-              <span data-lang="en">One place for everything<br />an event team needs.</span>
-            </h2>
-            <p>
-              <span data-lang="ja">基礎知識Web版は、イベントスタッフが必要な情報へ迷わずアクセスできるようにするWebポータルです。会期ごとのタイムテーブル、部屋割り、企画、販売物、お知らせを一元化し、カテゴリを横断した検索にも対応しています。</span>
-              <span data-lang="en">基礎知識Web版 is a web portal that helps event staff find the information they need without friction. It brings schedules, room assignments, programs, merchandise, and announcements together for each event, with search across every category.</span>
-            </p>
-            <p>
-              <span data-lang="ja">個人開発として、フロントエンドからAPI、認証、データベース、Cloudflare上のインフラまで、プロダクト全体の設計・実装・改善を続けています。</span>
-              <span data-lang="en">As a personal project, I continue to design, implement, and improve the product end to end—from the frontend and API to authentication, database, and Cloudflare infrastructure.</span>
-            </p>
+        <div class="project-summary">
+          <p>
+            <span data-lang="ja">イベント運営スタッフ向けの情報ポータルを個人で開発しています。フロントエンド、API、認証、データベース、インフラまで一貫して設計・実装しています。</span>
+            <span data-lang="en">I independently develop an information portal for event staff, designing and implementing the frontend, API, authentication, database, and infrastructure end to end.</span>
+          </p>
+          <div class="project-details">
+            <ul class="tag-list" aria-label="使用技術">
+              <li>Next.js</li><li>Hono</li><li>Cloudflare Workers</li><li>CockroachDB</li>
+            </ul>
             <a class="project-link" href="https://github.com/Yu-Muro/BasicKnowledgeForWeb" target="_blank" rel="noreferrer">
-              <span><span data-lang="ja">GitHubで開発を見る</span><span data-lang="en">View development on GitHub</span></span>
+              <span><span data-lang="ja">開発リポジトリ</span><span data-lang="en">Repository</span></span>
               <span aria-hidden="true">↗</span>
             </a>
-          </div>
-
-          <div class="project-system" aria-label="基礎知識Web版の機能と技術">
-            <div class="system-header">
-              <span>基礎知識WEB版 / SYSTEM MAP</span>
-              <span>v1.0 →</span>
-            </div>
-            <div class="system-features">
-              <div><span>01</span><p><span data-lang="ja">タイムテーブル</span><span data-lang="en">Timetable</span></p></div>
-              <div><span>02</span><p><span data-lang="ja">部屋割り</span><span data-lang="en">Room assignments</span></p></div>
-              <div><span>03</span><p><span data-lang="ja">企画・販売物</span><span data-lang="en">Programs & items</span></p></div>
-              <div><span>04</span><p><span data-lang="ja">横断検索</span><span data-lang="en">Unified search</span></p></div>
-            </div>
-            <div class="system-stack">
-              <p>FULL-STACK TYPESCRIPT</p>
-              <ul>
-                <li>Next.js 15</li>
-                <li>Hono</li>
-                <li>Cloudflare Workers</li>
-                <li>CockroachDB</li>
-                <li>Drizzle ORM</li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
