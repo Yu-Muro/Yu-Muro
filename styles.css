@@ -473,14 +473,25 @@ a:focus-visible {
 }
 
 .project-name {
+  display: grid;
+  justify-items: end;
   margin: -18px 0 0;
   color: transparent;
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: clamp(5rem, 14vw, 10rem);
+  font-family: "Helvetica Neue", "Noto Sans JP", system-ui, sans-serif;
+  font-size: clamp(2.7rem, 7.4vw, 5.7rem);
   font-weight: 700;
-  letter-spacing: -0.08em;
-  line-height: 0.85;
+  letter-spacing: -0.05em;
+  line-height: 0.95;
   -webkit-text-stroke: 1px rgba(120, 240, 182, 0.6);
+}
+
+.project-name small {
+  margin-top: 11px;
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.22em;
+  letter-spacing: 0.16em;
+  -webkit-text-stroke: 0;
 }
 
 .project-layout {
