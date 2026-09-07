@@ -353,6 +353,7 @@ a:focus-visible {
 }
 
 .about,
+.project,
 .experience,
 .skills,
 .connect {
@@ -427,6 +428,177 @@ a:focus-visible {
 .value-card p {
   margin: 0;
   font-size: 0.875rem;
+}
+
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project::after {
+  position: absolute;
+  top: 90px;
+  right: -170px;
+  width: 410px;
+  height: 410px;
+  border: 1px solid rgba(120, 240, 182, 0.12);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+}
+
+.project-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: clamp(54px, 8vw, 92px);
+}
+
+.project-kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-kicker .status-dot {
+  width: 6px;
+  height: 6px;
+}
+
+.project-name {
+  margin: -18px 0 0;
+  color: transparent;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: clamp(5rem, 14vw, 10rem);
+  font-weight: 700;
+  letter-spacing: -0.08em;
+  line-height: 0.85;
+  -webkit-text-stroke: 1px rgba(120, 240, 182, 0.6);
+}
+
+.project-layout {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(380px, 0.92fr);
+  gap: clamp(50px, 9vw, 120px);
+  align-items: start;
+}
+
+.project-story h2 {
+  margin: 0;
+  font-size: clamp(2.2rem, 4.4vw, 4.2rem);
+  font-weight: 620;
+  letter-spacing: -0.055em;
+  line-height: 1.15;
+}
+
+.project-story > p {
+  max-width: 650px;
+  margin: 26px 0 0;
+  color: var(--muted);
+}
+
+.project-story > p + p {
+  margin-top: 16px;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 650px;
+  margin-top: 38px;
+  padding: 15px 0;
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  color: var(--accent);
+  font-weight: 650;
+  transition: padding 180ms ease, color 180ms ease;
+}
+
+.project-link:hover {
+  padding-inline: 12px;
+  color: var(--text);
+}
+
+.project-system {
+  border: 1px solid var(--line);
+  background: rgba(12, 25, 41, 0.72);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.18);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.system-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 19px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+}
+
+.system-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.system-features > div {
+  min-height: 116px;
+  padding: 18px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.system-features > div:nth-child(even) {
+  border-right: 0;
+}
+
+.system-features > div > span {
+  color: var(--accent);
+  font-size: 0.68rem;
+}
+
+.system-features p {
+  margin: 27px 0 0;
+  font-family: Inter, "Helvetica Neue", "Noto Sans JP", system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.system-stack {
+  padding: 20px;
+}
+
+.system-stack > p {
+  margin: 0 0 14px;
+  color: var(--blue);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+}
+
+.system-stack ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.system-stack li {
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  color: #c5d4e5;
+  font-size: 0.68rem;
 }
 
 .compact-heading {
@@ -642,6 +814,14 @@ a:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .project-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .project-system {
+    max-width: 620px;
+  }
+
   .section-heading h2 br {
     display: none;
   }
@@ -681,6 +861,18 @@ a:focus-visible {
 
   .value-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-heading {
+    display: block;
+  }
+
+  .project-name {
+    margin: 44px 0 0;
+  }
+
+  .project-story h2 br {
+    display: none;
   }
 
   .value-card {

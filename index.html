@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="プロダクトエンジニア 室谷優のポートフォリオ。Webアプリケーション開発、技術スタック、経歴をご紹介します。"
+      content="プロダクトエンジニア 室谷優のポートフォリオ。Webアプリケーション開発、個人開発ASH、技術スタック、経歴をご紹介します。"
     />
     <meta name="theme-color" content="#07111f" />
     <title>室谷 優 | Product Engineer</title>
@@ -22,6 +22,7 @@
 
       <nav class="nav" aria-label="メインナビゲーション">
         <a href="#about"><span data-lang="ja">私について</span><span data-lang="en">About</span></a>
+        <a href="#project"><span data-lang="ja">個人開発</span><span data-lang="en">Project</span></a>
         <a href="#experience"><span data-lang="ja">経歴</span><span data-lang="en">Experience</span></a>
         <a href="#skills"><span data-lang="ja">スキル</span><span data-lang="en">Skills</span></a>
       </nav>
@@ -43,8 +44,8 @@
           </h1>
           <p class="hero-name"><span data-lang="ja">室谷 優</span><span data-lang="en">Yu Murotani</span></p>
           <p class="hero-intro">
-            <span data-lang="ja">要件定義・設計から実装まで一貫して携わるプロダクトエンジニアです。バックエンドを軸に、フロントエンドやインフラも横断しながら、チームで価値を届けます。</span>
-            <span data-lang="en">I am a product engineer working across requirements, design, and implementation. With a focus on backend development, I collaborate across frontend and infrastructure to deliver meaningful value as a team.</span>
+            <span data-lang="ja">要件定義・設計から実装まで一貫して携わるプロダクトエンジニアです。バックエンドを軸に、フロントエンドやインフラも横断。個人ではイベントスタッフ向けポータル「ASH」を開発しています。</span>
+            <span data-lang="en">I am a product engineer working across requirements, design, and implementation. With a focus on backend development, I also work across frontend and infrastructure. My personal project is ASH, a portal for event staff.</span>
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="https://github.com/Yu-Muro" target="_blank" rel="noreferrer">
@@ -72,8 +73,8 @@
               <dd>Web Application<br />Development</dd>
             </div>
             <div>
-              <dt><span data-lang="ja">得意なこと</span><span data-lang="en">Strength</span></dt>
-              <dd>Backend · Full Cycle<br />Team Collaboration</dd>
+              <dt><span data-lang="ja">個人開発</span><span data-lang="en">Personal</span></dt>
+              <dd>ASH<br />Event Staff Portal</dd>
             </div>
           </dl>
         </aside>
@@ -114,9 +115,63 @@
         </div>
       </section>
 
+      <section class="section project" id="project" aria-labelledby="project-title">
+        <div class="project-heading">
+          <div>
+            <p class="section-number">02 / PERSONAL PROJECT</p>
+            <p class="project-kicker"><span class="status-dot" aria-hidden="true"></span><span data-lang="ja">継続開発中</span><span data-lang="en">In active development</span></p>
+          </div>
+          <p class="project-name" aria-label="プロジェクト名">ASH</p>
+        </div>
+
+        <div class="project-layout">
+          <div class="project-story">
+            <h2 id="project-title">
+              <span data-lang="ja">イベント運営の情報を、<br />ひとつの場所に。</span>
+              <span data-lang="en">One place for everything<br />an event team needs.</span>
+            </h2>
+            <p>
+              <span data-lang="ja">ASHは、イベントスタッフが必要な情報へ迷わずアクセスできるようにするWebポータルです。会期ごとのタイムテーブル、部屋割り、企画、販売物、お知らせを一元化し、カテゴリを横断した検索にも対応しています。</span>
+              <span data-lang="en">ASH is a web portal that helps event staff find the information they need without friction. It brings schedules, room assignments, programs, merchandise, and announcements together for each event, with search across every category.</span>
+            </p>
+            <p>
+              <span data-lang="ja">個人開発として、フロントエンドからAPI、認証、データベース、Cloudflare上のインフラまで、プロダクト全体の設計・実装・改善を続けています。</span>
+              <span data-lang="en">As a personal project, I continue to design, implement, and improve the product end to end—from the frontend and API to authentication, database, and Cloudflare infrastructure.</span>
+            </p>
+            <a class="project-link" href="https://github.com/Yu-Muro/BasicKnowledgeForWeb" target="_blank" rel="noreferrer">
+              <span><span data-lang="ja">GitHubで開発を見る</span><span data-lang="en">View development on GitHub</span></span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="project-system" aria-label="ASHの機能と技術">
+            <div class="system-header">
+              <span>ASH / SYSTEM MAP</span>
+              <span>v1.0 →</span>
+            </div>
+            <div class="system-features">
+              <div><span>01</span><p><span data-lang="ja">タイムテーブル</span><span data-lang="en">Timetable</span></p></div>
+              <div><span>02</span><p><span data-lang="ja">部屋割り</span><span data-lang="en">Room assignments</span></p></div>
+              <div><span>03</span><p><span data-lang="ja">企画・販売物</span><span data-lang="en">Programs & items</span></p></div>
+              <div><span>04</span><p><span data-lang="ja">横断検索</span><span data-lang="en">Unified search</span></p></div>
+            </div>
+            <div class="system-stack">
+              <p>FULL-STACK TYPESCRIPT</p>
+              <ul>
+                <li>Next.js 15</li>
+                <li>Hono</li>
+                <li>Cloudflare Workers</li>
+                <li>CockroachDB</li>
+                <li>Drizzle ORM</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section experience" id="experience" aria-labelledby="experience-title">
         <div class="section-heading compact-heading">
-          <p class="section-number">02 / EXPERIENCE</p>
+          <p class="section-number">03 / EXPERIENCE</p>
           <h2 id="experience-title"><span data-lang="ja">経験</span><span data-lang="en">Experience</span></h2>
         </div>
 
@@ -164,7 +219,7 @@
 
       <section class="section skills" id="skills" aria-labelledby="skills-title">
         <div class="section-heading compact-heading">
-          <p class="section-number">03 / CAPABILITIES</p>
+          <p class="section-number">04 / CAPABILITIES</p>
           <h2 id="skills-title"><span data-lang="ja">技術と強み</span><span data-lang="en">Skills & Strengths</span></h2>
         </div>
 
@@ -194,7 +249,7 @@
 
       <section class="section connect" id="connect" aria-labelledby="connect-title">
         <div>
-          <p class="section-number">04 / CONNECT</p>
+          <p class="section-number">05 / CONNECT</p>
           <h2 id="connect-title"><span data-lang="ja">もっと知る</span><span data-lang="en">Find out more</span></h2>
           <p><span data-lang="ja">コードや技術記事は、GitHubとQiitaでご覧いただけます。</span><span data-lang="en">Explore my code and technical writing on GitHub and Qiita.</span></p>
         </div>
